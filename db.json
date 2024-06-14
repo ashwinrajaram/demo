@@ -1,14 +1,84 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "expenses": [
+        {
+            "id": 1,
+            "desc": "Dinner",
+            "category": "Food & Drinks",
+            "amount": 32,
+            "date": "12-Mar-2023"
+        },
+        {
+            "id": 2,
+            "desc": "Fast fuel",
+            "category": "Fuel",
+            "amount": 75,
+            "date": "02-Mar-2023"
+        },
+        {
+            "id": 3,
+            "desc": "Farmer Jacks",
+            "category": "Grocery",
+            "amount": 45,
+            "date": "09-Mar-2023"
+        },
+        {
+            "id": 4,
+            "desc": "Netflix",
+            "category": "Subscription",
+            "amount": 7.99,
+            "date": "16-Mar-2023"
+        },
+        {
+            "id": 6,
+            "desc": "RAC home insurance",
+            "category": "Insurance",
+            "amount": 32,
+            "date": "21-Mar-2023"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Clothing & Personal care",
+            "isArchived": false
+        },
+        {
+            "id": 2,
+            "name": "Insurance & Fees",
+            "isArchived": false
+        },
+        {
+            "id": 3,
+            "name": "Groceries",
+            "isArchived": false
+        },
+        {
+            "id": 4,
+            "name": "Medical",
+            "isArchived": false
+        },
+        {
+            "id": 5,
+            "name": "Entertainment",
+            "isArchived": false
+        },
+        {
+            "id": 6,
+            "name": "Utilities",
+            "isArchived": false
+        },
+        {
+            "id": 7,
+            "name": "Misc",
+            "isArchived": false
+        }
+    ],
+    "subCatergties": [
+        {
+            "id": 1,
+            "parentCategory": 1,
+            "name": "clothing",
+            "isArchived": false
+        }
+    ]
 }
