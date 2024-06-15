@@ -1,35 +1,35 @@
 {
     "expenses": [
         {
-            "id": 1,
+            "id": "gb4vXqeJy1PemRdpWj1ga",
             "desc": "Dinner",
             "category": "Food & Drinks",
             "amount": 32,
             "date": "12-Mar-2023"
         },
         {
-            "id": 2,
+            "id": "Mie458dnwhP9WONpmm_4H",
             "desc": "Fast fuel",
             "category": "Fuel",
             "amount": 75,
             "date": "02-Mar-2023"
         },
         {
-            "id": 3,
+            "id": "myEZerIaQxF8eIxvde9Da",
             "desc": "Farmer Jacks",
             "category": "Grocery",
             "amount": 45,
             "date": "09-Mar-2023"
         },
         {
-            "id": 4,
+            "id": "yqNzUI7zNMiGMkmVKZARJ",
             "desc": "Netflix",
             "category": "Subscription",
             "amount": 7.99,
             "date": "16-Mar-2023"
         },
         {
-            "id": 6,
+            "id": "VdRNt9FpQDLU6ryGWtCWf",
             "desc": "RAC home insurance",
             "category": "Insurance",
             "amount": 32,
@@ -38,45 +38,45 @@
     ],
     "categories": [
         {
-            "id": 1,
+            "id": "SEIt4RQKWR2haf2hOsSKC",
             "name": "Clothing & Personal care",
             "isArchived": false
         },
         {
-            "id": 2,
+            "id": "WDBLTUUJ4Yefe4RUS5rMG",
             "name": "Insurance & Fees",
             "isArchived": false
         },
         {
-            "id": 3,
+            "id": "oRAwz_bUvQhmwPmL1zYre",
             "name": "Groceries",
             "isArchived": false
         },
         {
-            "id": 4,
+            "id": "WkrL6w_F27EdX_ZpSynmh",
             "name": "Medical",
             "isArchived": false
         },
         {
-            "id": 5,
+            "id": "7ZErlq503jz9KYYtLNlOK",
             "name": "Entertainment",
             "isArchived": false
         },
         {
-            "id": 6,
+            "id": "4zsqogegQ78h6pzGNMqvJ",
             "name": "Utilities",
             "isArchived": false
         },
         {
-            "id": 7,
+            "id": "HR95OKrfldzbL742OaGb3",
             "name": "Misc",
             "isArchived": false
         }
     ],
     "subCatergties": [
         {
-            "id": 1,
-            "parentCategory": 1,
+            "id": "ErY9k0Fi5adW6BQGVdd1u",
+            "parentCategory": "SEIt4RQKWR2haf2hOsSKC",
             "name": "clothing",
             "isArchived": false
         }
